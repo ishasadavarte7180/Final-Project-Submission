@@ -1,0 +1,13 @@
+DELIMITER $$
+
+CREATE TRIGGER expense_alert
+AFTER INSERT ON expenses
+FOR EACH ROW
+BEGIN
+  IF NEW.amount > 10000 THEN
+    SIGNAL SQLSTATE '45000'
+    SET MESSAGE_TEXT = '⚠️ Expense exceeds ₹10,000 limit!';
+  END IF;
+END$$
+
+DELIMITER ;
