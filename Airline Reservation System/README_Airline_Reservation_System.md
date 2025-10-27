@@ -26,7 +26,8 @@ This project demonstrates SQL skills such as:
 CREATE DATABASE AirlineDB;
 USE AirlineDB;
 ```
-📸 *Screenshot Path:* `./Airline Reservation System/Screenshots/create_database.PNG`
+📸![Screenshot](./Screenshots/create_database.PNG)
+`
 
 ---
 
