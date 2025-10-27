@@ -26,7 +26,7 @@ This project demonstrates SQL skills such as:
 CREATE DATABASE AirlineDB;
 USE AirlineDB;
 ```
-📸 *Screenshot Path:* `/Screenshots/create_database.PNG`
+📸 *Screenshot Path:* `./Screenshots/create_database.PNG`
 
 ---
 
@@ -64,7 +64,7 @@ CREATE TABLE bookings (
   FOREIGN KEY (flight_id) REFERENCES flights(flight_id)
 );
 ```
-📸 *Screenshot Path:* `/Airline Reservation System/Screenshots/create_table.PNG`
+📸 *Screenshot Path:* `./Screenshots/create_table.PNG`
 
 ---
 
@@ -91,7 +91,7 @@ VALUES
 (1, 3, 'A3', 'booked'),
 (3, 1, 'A4', 'cancelled');
 ```
-📸 *Screenshot Path:* `/Screenshots/Insert_data.PNG`
+📸 *Screenshot Path:* `./Screenshots/Insert_data.PNG`
 
 ---
 
@@ -103,7 +103,7 @@ FROM bookings b
 JOIN customers c ON b.customer_id = c.customer_id
 GROUP BY c.customer_id;
 ```
-📸 *Screenshot Path:* `/Screenshots/CaptureShow booking summary per customer.PNG`
+📸 *Screenshot Path:* `./Screenshots/CaptureShow booking summary per customer.PNG`
 
 **✅ Expected Output:**
 | name            | total_bookings |
@@ -120,7 +120,7 @@ SELECT flight_number, available_seats
 FROM flights
 WHERE available_seats < 10;
 ```
-📸 *Screenshot Path:* `/Screenshots/Find flights with less than 10 seats remaining.PNG`
+📸 *Screenshot Path:* `./Screenshots/Find flights with less than 10 seats remaining.PNG`
 
 *Note:* If you see an empty result, reduce seats manually:
 ```sql
@@ -142,7 +142,7 @@ BEGIN
 END$$
 DELIMITER ;
 ```
-📸 *Screenshot Path:* `/Screenshots/triggers.PNG`
+📸 *Screenshot Path:* `./Screenshots/triggers.PNG`
 
 ---
 
@@ -156,7 +156,7 @@ JOIN flights f ON b.flight_id = f.flight_id
 GROUP BY f.flight_id
 ORDER BY total_bookings DESC;
 ```
-📸 *Screenshot Path:* `/Screenshots/Total Bookings by Flight.PNG`
+📸 *Screenshot Path:* `./Screenshots/Total Bookings by Flight.PNG`
 
 ---
 
@@ -166,7 +166,7 @@ SELECT status, COUNT(*) AS total
 FROM bookings
 GROUP BY status;
 ```
-📸 *Screenshot Path:* `/Screenshots/Cancelled Bookings Report.PNG`
+📸 *Screenshot Path:* `./Screenshots/Cancelled Bookings Report.PNG`
 
 ---
 
@@ -209,4 +209,4 @@ Airline_Reservation_System/
 ### 🏁 End of Project
 **Thank You! 🙌**  
 Developed by: *Isha Sunil Sadavarte*  
-📧 Email: `isha@gmail.com`
+📧 Email: `ishasadavarte7180@gmail.com`
