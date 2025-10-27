@@ -64,7 +64,7 @@ CREATE TABLE bookings (
   FOREIGN KEY (flight_id) REFERENCES flights(flight_id)
 );
 ```
-📸 *Screenshot Path:* `/Screenshots/create_table.PNG`
+📸 *Screenshot Path:* `/Airline Reservation System/Screenshots/create_table.PNG`
 
 ---
 
