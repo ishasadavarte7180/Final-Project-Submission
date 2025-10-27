@@ -205,8 +205,3 @@ Airline_Reservation_System/
 ```
 
 ---
-
-### 🏁 End of Project
-**Thank You! 🙌**  
-Developed by: *Isha Sunil Sadavarte*  
-📧 Email: `isha@gmail.com`
