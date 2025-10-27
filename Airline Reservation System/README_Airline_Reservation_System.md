@@ -26,7 +26,7 @@ This project demonstrates SQL skills such as:
 CREATE DATABASE AirlineDB;
 USE AirlineDB;
 ```
-📸![Screenshot](./Screenshots/create_database.PNG)
+📸*Screenshot Path:* (./Screenshots/create_database.PNG)
 `
 
 ---
@@ -65,7 +65,7 @@ CREATE TABLE bookings (
   FOREIGN KEY (flight_id) REFERENCES flights(flight_id)
 );
 ```
-📸 *Screenshot Path:* `./Screenshots/create_table.PNG`
+📸 *Screenshot Path:* (./Screenshots/create_table.PNG)
 
 ---
 
