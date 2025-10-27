@@ -83,7 +83,7 @@ VALUES
 ```
 
 🖼️ *Screenshot:*  
-![Inserted Data](./Screenshots/Insert_data.PNG)
+![Inserted Data](./Screenshotes/Insert_data.PNG)
 
 ---
 
@@ -104,7 +104,7 @@ FROM Expenses
 GROUP BY MONTH(expense_date);
 ```
 🖼️ *Screenshot:*  
-![Monthly Summary](./Screenshots/Compare Income vs Expense (per user).PNG)
+![Monthly Summary](./Screenshotes/Compare Income vs Expense (per user).PNG)
 
 ---
 
@@ -116,7 +116,7 @@ JOIN Categories c ON e.category_id = c.category_id
 GROUP BY c.category_name;
 ```
 🖼️ *Screenshot:*  
-![Category Summary](./Screenshots/Category-wise Spending.PNG)
+![Category Summary](./Screenshotes/Category-wise Spending.PNG)
 
 ---
 
@@ -132,7 +132,7 @@ SELECT
 FROM Users u;
 ```
 🖼️ *Screenshot:*  
-![Monthly Report View](./Screenshots/Monthly Spending Report.PNG)
+![Monthly Report View](./Screenshotes/Monthly Spending Report.PNG)
 
 ---
 
